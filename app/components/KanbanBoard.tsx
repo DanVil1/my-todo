@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { DragDropContext, Droppable, Draggable, DropResult } from '@hello-pangea/dnd';
 import { Plus, X, Pencil, Trash2, Clock, Calendar, CheckCircle2, Circle } from 'lucide-react';
-import { Task, TaskStatus, Priority } from '@/types';
+import { Task, TaskStatus, Priority } from './../types';
 import { format, differenceInMinutes, differenceInHours } from 'date-fns';
 
 // Utility for class names
